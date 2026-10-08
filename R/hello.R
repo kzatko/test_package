@@ -16,6 +16,6 @@ hello <- function(my_name) {
   } else if (nchar(my_name) < 4){
     print(paste("Ciao,", my_name))
   } else {
-    print(paste("Hi,", my_name))
+    print(paste("Hi friend,", my_name))
   }
 }
