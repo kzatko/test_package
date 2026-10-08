@@ -14,7 +14,7 @@ hello <- function(my_name) {
   if (nchar(my_name) > 4) {
     print(paste("Hello,", my_name))
   } else if (nchar(my_name) < 4){
-    print(paste("Ciao,", my_name))
+    print(paste("Benvenuto,", my_name))
   } else {
     print(paste("Hi,", my_name))
   }
